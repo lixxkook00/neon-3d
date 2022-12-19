@@ -184,18 +184,23 @@ model-viewer > #ar-prompt > img {
   left: 50%;
   bottom: 5%;
   border-radius: 10px;
+  
   transform: translate(-50%);
   transition: all 0.3s ease;
+  
   outline: none;
+
   background: url(../../../public/images/button.png) no-repeat center center;
-  // background: url(../../../public/images/bg-buttton.png) no-repeat center center;
   background-size: contain  ;
+  
+  font-style: normal;
   font-weight: 700;
   font-size: 24px;
+  font-family: 'Bangers', cursive;
   letter-spacing: 2px;
-  color: #d31500;
+  
+  color: #09124b;
   padding: 20px 40px;
-  font-family: 'Rubik Gemstones', cursive;
 
   &:hover{
     cursor: pointer;
@@ -215,13 +220,21 @@ model-viewer > #ar-prompt > img {
 
   &-item{
     display: flex;
+
     padding: 4px 12px;
-    margin-top: 10px;
+    margin: 10px;
+
     font-size: 18px;
-    border-radius: 10px;
     font-weight: 600;
+    font-style: normal;
+    
+    border-radius: 10px;
+    
     transition: all 0.3s ease-in-out;
-    font-family: "Rubik Gemstones", cursive;
+    font-family: "Bangers", cursive;
+    
+    background: url(../../../public/images/button-nav.png) no-repeat center center;
+    background-size: 100% 100%;
 
     &:hover{
       cursor: pointer;
@@ -229,32 +242,33 @@ model-viewer > #ar-prompt > img {
     }
 
     &.story{
-      background-color: rgba(255, 255, 255, 0.3);
-      border: 1.5px solid #000;
+      // background-color: rgba(255, 255, 255, 0.3);
+      // border: 1.5px solid #000;
+      color: #F26D00;
     }
 
     &.gameplay{
-      background-color: #f9dd0742;
-      color: #983D11;
-      border: 1.5px solid #983D11;
+      // background-color: #f9dd0742;
+      color: #002BC9;
+      // border: 1.5px solid #983D11;
     }
 
     &.roadmap{
-      background-color: #cce7ff73;
-      color: #5992B3;
-      border: 1.5px solid #5992B3;
+      // background-color: #cce7ff73;
+      color: #F26D00;
+      // border: 1.5px solid #5992B3;
     }
 
     &.about{
-      background-color: #beaefd73;
-      color: #AF7FE7;
-      border: 1.5px solid #AF7FE7;
+      // background-color: #beaefd73;
+      color: #F26D00;
+      // border: 1.5px solid #AF7FE7;
     }
 
     &.tokenomic{
-      background-color: #95CAF1;
-      color: #426385;
-      border: 1.5px solid #426385;
+      // background-color: #95CAF1;
+      color: #002BC9;
+      // border: 1.5px solid #426385;
     }
 
     &-icon{
