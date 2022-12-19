@@ -78,7 +78,7 @@ export default function Island() {
         modelViewer.addEventListener("load", () => {
             const snow = modelViewer.model.materials[1];
             const rockStone = modelViewer.model.materials[3];
-
+            const lamp =  modelViewer.model.materials[44];
             const bellLights =  modelViewer.model.materials[63];
 
             const createTexture = async () => {
@@ -91,11 +91,20 @@ export default function Island() {
                 // set bell light part :
                 setInterval(() => {
                     bellLights.pbrMetallicRoughness.setBaseColorFactor("#ff0000");
-                },1500)
+                },1200)
 
                 setInterval(() => {
-                    bellLights.pbrMetallicRoughness.setBaseColorFactor("#fbff00");
-                },3000)
+                    bellLights.pbrMetallicRoughness.setBaseColorFactor("#fff700");
+                },2400)
+
+                // set lamp light part :
+                setInterval(() => {
+                    lamp.pbrMetallicRoughness.setBaseColorFactor("#ffe600");
+                },500)
+
+                setInterval(() => {
+                    lamp.pbrMetallicRoughness.setBaseColorFactor("#ffffff");
+                },1000)
             }
             createTexture()
         })
