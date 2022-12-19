@@ -28,7 +28,6 @@ export default function Island() {
     }
 
     useEffect(() => {
-
         // handle loading
         const onProgress = (event) => {
             const progressBar = event.target.querySelector('.progress-bar');
