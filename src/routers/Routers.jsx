@@ -1,6 +1,6 @@
 import React from 'react'
-
 import { Route, Routes } from 'react-router-dom'
+
 import Betting from '../pages/Betting'
 import BettingRoom from '../pages/BettingRoom'
 
