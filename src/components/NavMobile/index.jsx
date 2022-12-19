@@ -17,6 +17,19 @@ export default function NavMobile({statusNavMobile,navMobile}) {
         </div>
 
         <div 
+            className="nav-mobile-item roadmap" 
+            data-target="9m -11m -95m"
+            data-name="roadmap"
+        >
+            <div className="nav-mobile-item-icon">
+                <img src="/images/roadmap-ball.png" alt="" />
+            </div>
+            <div className="nav-mobile-item-title">
+                Road Map
+            </div>
+        </div>
+
+        <div 
             className="nav-mobile-item gameplay" 
             data-target="0.00m -22.00m -100.00m"
             data-name="gameplay"
@@ -30,18 +43,18 @@ export default function NavMobile({statusNavMobile,navMobile}) {
         </div>
 
         <div 
-            className="nav-mobile-item roadmap" 
-            data-target="9m -11m -95m"
-            data-name="roadmap"
-        >
+            className="nav-mobile-item about" 
+            data-target="-12m -12m -75m" 
+            data-name="about"    
+            >
             <div className="nav-mobile-item-icon">
-                <img src="/images/roadmap-ball.png" alt="" />
+                <img src="/images/about-ball.png" alt="" />
             </div>
             <div className="nav-mobile-item-title">
-                Road Map
+                About
             </div>
         </div>
-        
+
         <div 
             className="nav-mobile-item tokenomic" 
             data-target="15m -18m -84m"
@@ -52,19 +65,6 @@ export default function NavMobile({statusNavMobile,navMobile}) {
             </div>
             <div className="nav-mobile-item-title">
                 Tokenomic
-            </div>
-        </div>
-
-        <div 
-            className="nav-mobile-item about" 
-            data-target="-12m -12m -75m" 
-            data-name="about"    
-            >
-            <div className="nav-mobile-item-icon">
-                <img src="/images/about-ball.png" alt="" />
-            </div>
-            <div className="nav-mobile-item-title">
-                About
             </div>
         </div>
     </div>
