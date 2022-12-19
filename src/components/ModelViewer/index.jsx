@@ -105,7 +105,7 @@ export default function ModelViewer({model,rotateStatus}) {
         </div>
 
         <button className="btn-back" >
-            <span className="gray-gradient-text">
+            <span className="">
                 BACK
             </span>
         </button>
