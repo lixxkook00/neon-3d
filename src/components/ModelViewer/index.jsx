@@ -14,7 +14,7 @@ export default function ModelViewer({model,rotateStatus}) {
         ref={model}
         id="hotspot-camera-view-demo"  
         bounds="tight" 
-        enable-pan src='/images/noel.glb'
+        enable-pan src='/images/noel.gltf'
         ar ar-modes="webxr scene-viewer quick-look"
         camera-controls
         camera-target="0 0 0"
