@@ -75,6 +75,31 @@ export default function Island() {
 
         const modelViewer =  model.current;
 
+        modelViewer.addEventListener("load", () => {
+            const snow = modelViewer.model.materials[1];
+            const rockStone = modelViewer.model.materials[3];
+
+            const bellLights =  modelViewer.model.materials[63];
+
+            const createTexture = async () => {
+                // set snow part :
+                snow.pbrMetallicRoughness.setMetallicFactor(1.5);
+
+                // set rock stone part :
+                rockStone.pbrMetallicRoughness.setMetallicFactor(1.5);
+
+                // set bell light part :
+                setInterval(() => {
+                    bellLights.pbrMetallicRoughness.setBaseColorFactor("#ff0000");
+                },1500)
+
+                setInterval(() => {
+                    bellLights.pbrMetallicRoughness.setBaseColorFactor("#fbff00");
+                },3000)
+            }
+            createTexture()
+        })
+
         // handle onclick
         const annotationClicked = (annotation) => {
             let dataset = annotation.dataset;
