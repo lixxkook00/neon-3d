@@ -52,3 +52,10 @@
     }
 
 }
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .bg{
+       background-size: auto 100%; 
+    }
+}
