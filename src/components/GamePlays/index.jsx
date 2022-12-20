@@ -27,6 +27,15 @@ export default function GamePlays({name}) {
                     </div>
                 </Link>
 
+                <Link to="/lucky-ball" className="gameplays-item">
+                    <div className="gameplays-item-img centering">
+                        <img src="/images/lucky-ball.jpg" alt="" />
+                    </div>
+                    <div className="primary-gradient-text">
+                        Lucky Ball
+                    </div>
+                </Link>
+
                 <Link to="/lucky-wheel" className="gameplays-item">
                     <div className="gameplays-item-img centering">
                         <img src="/images/LUCKY WHEEL.jpg" alt="" />
