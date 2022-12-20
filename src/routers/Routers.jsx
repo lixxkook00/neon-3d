@@ -9,6 +9,7 @@ import Login from '../pages/Login'
 import LuckyWheel from '../pages/LuckyWheel'
 import MainPage from '../pages/MainPage'
 import Prediction from '../pages/Prediction'
+import LuckyBall from '../pages/LuckyBall'
 
 export default function Routers() {
   return (
@@ -27,6 +28,8 @@ export default function Routers() {
         <Route exact path="/betting" element={<Betting />} />
 
         <Route exact path="/betting/room" element={<BettingRoom />} />
+
+        <Route exact path="/lucky-ball" element={<LuckyBall />} />
 
     </Routes>
   )
