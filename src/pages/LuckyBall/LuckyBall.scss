@@ -6,12 +6,55 @@
   height: 100vh;
   width: 100vw;
   position: relative;
+  overflow-y: auto;
+
+  &-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.awards-item{
+  margin-bottom: 20px;
+}
+
+.awards-item-name{
+  width: 100%;
+
+  text-align: center;
+
+  background-image: linear-gradient(180deg, #26840C 0%, #114002 100%);
+
+  padding: 5px 0;
+  border: 1px solid #3BC311;
+
+  font-weight: 600;
+
+  color: #FDE657;
+
+  margin-top: 5px;
 }
 
 .wrap-container {
     z-index: 9;
     position: relative;
     height: 56.25vw;
+}
+
+.awards-list{
+  padding: 50px 0 10px;
+
+  img{
+    height: auto;
+    width: 100%;
+  }
+
+  .machine-title{
+    position: relative;
+    top: 0;
+  }
 }
 
 .award-ball{
@@ -84,7 +127,7 @@
  .machine .wrap-machine-content.animation-lottery {
   animation: shake ease-in-out 2s infinite;
 }
- .machine .wrap-machine-content .machine-title {
+ .machine-title {
   position: absolute;
   top: 3.75vw;
   left: 0;
@@ -93,11 +136,11 @@
   text-align: center;
 }
 @media screen and (max-width: 768px) and (orientation: portrait) {
-   .machine .wrap-machine-content .machine-title {
+ .machine-title {
     top: 10.26667vw;
   }
 }
- .machine .wrap-machine-content .machine-title .wrap-title {
+ .machine-title .wrap-title {
   position: relative;
   display: inline-block;
   font-size: 3.02083vw;
@@ -111,18 +154,17 @@
   animation: glow 0.17s ease infinite forwards;
 }
 
-  .machine
-  .wrap-machine-content
   .machine-title
   .wrap-title
   .char-ani1 {
   animation: 0.5s text-blink 1.5s infinite alternate;
 }
 @media screen and (max-width: 768px) and (orientation: portrait) {
-   .machine .wrap-machine-content .machine-title .wrap-title {
+ .machine-title .wrap-title {
     font-size: 7.73333vw;
   }
 }
+
  .machine .wrap-machine-content .machine-grass {
   position: absolute;
   width: 26.40625vw;
@@ -268,6 +310,7 @@
   left: 0;
   right: 0;
   margin: 0 auto;
+  filter: grayscale(1);
 }
 @media screen and (max-width: 768px) and (orientation: portrait) {
     .award-ball .item .base-img,
@@ -1224,5 +1267,4 @@
   max-width: none;
   width: 2.34375vw;
 }
-
 
