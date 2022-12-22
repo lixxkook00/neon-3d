@@ -74,6 +74,7 @@
         .gameplays{
             overflow-x: auto;
             justify-content: flex-start !important;
+            align-items: flex-start !important;
 
             &-item{
                 width: 33% !important;

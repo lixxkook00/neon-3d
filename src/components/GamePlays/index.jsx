@@ -9,23 +9,23 @@ export default function GamePlays({name}) {
             name === "gameplay"
             &&
             <div className="gameplays">
-                <Link to='/login' className="gameplays-item gameplays-item--disabled">
+                {/* <Link to='/login' className="gameplays-item gameplays-item--disabled">
                     <div className="gameplays-item-img centering">
                         <img src="/images/gameplay-1.png" alt="" />
                     </div>
                     <div className="primary-gradient-text">
                         Dice
                     </div>
-                </Link>
+                </Link> */}
 
-                <Link to='/dashboard' className="gameplays-item">
+                {/* <Link to='/dashboard' className="gameplays-item">
                     <div className="gameplays-item-img centering">
                         <img src="/images/KICK.jpg" alt="" />
                     </div>
                     <div className="primary-gradient-text">
                         Click to Earn
                     </div>
-                </Link>
+                </Link> */}
 
                 <Link to="/lucky-ball" className="gameplays-item">
                     <div className="gameplays-item-img centering">
@@ -45,6 +45,15 @@ export default function GamePlays({name}) {
                     </div>
                 </Link>
 
+                <Link to="/lucky-ball" className="gameplays-item">
+                    <div className="gameplays-item-img centering">
+                        <img src="/images/lucky-ball.jpg" alt="" />
+                    </div>
+                    <div className="primary-gradient-text">
+                        Lucky Ball
+                    </div>
+                </Link>
+
                 <Link to='/prediction' className="gameplays-item">
                     <div className="gameplays-item-img centering">
                         <img src="/images/predition.jpg" alt="" />
@@ -54,23 +63,32 @@ export default function GamePlays({name}) {
                     </div>
                 </Link>
 
-                <Link to='/betting' className="gameplays-item">
+                <Link to="/lucky-ball" className="gameplays-item">
+                    <div className="gameplays-item-img centering">
+                        <img src="/images/lucky-ball.jpg" alt="" />
+                    </div>
+                    <div className="primary-gradient-text">
+                        Lucky Ball
+                    </div>
+                </Link>
+
+                {/* <Link to='/betting' className="gameplays-item">
                     <div className="gameplays-item-img centering">
                         <img src="/images/BETTING.jpg" alt="" />
                     </div>
                     <div className="primary-gradient-text">
                         Bet WC
                     </div>
-                </Link>
+                </Link> */}
 
-                <Link to='/login' className="gameplays-item gameplays-item--disabled">
+                {/* <Link to='/login' className="gameplays-item gameplays-item--disabled">
                     <div className="gameplays-item-img centering">
                         <img src="/images/gameplay-3.png" alt="" />
                     </div>
                     <div className="primary-gradient-text">
                         Evoplay
                     </div>
-                </Link>
+                </Link> */}
             </div>
         }
     </>
