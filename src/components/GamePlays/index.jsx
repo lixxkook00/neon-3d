@@ -9,23 +9,6 @@ export default function GamePlays({name}) {
             name === "gameplay"
             &&
             <div className="gameplays">
-                {/* <Link to='/login' className="gameplays-item gameplays-item--disabled">
-                    <div className="gameplays-item-img centering">
-                        <img src="/images/gameplay-1.png" alt="" />
-                    </div>
-                    <div className="primary-gradient-text">
-                        Dice
-                    </div>
-                </Link> */}
-
-                {/* <Link to='/dashboard' className="gameplays-item">
-                    <div className="gameplays-item-img centering">
-                        <img src="/images/KICK.jpg" alt="" />
-                    </div>
-                    <div className="primary-gradient-text">
-                        Click to Earn
-                    </div>
-                </Link> */}
 
                 <Link to="/lucky-wheel" className="gameplays-item">
                     <div className="gameplays-item-img centering">
@@ -71,15 +54,6 @@ export default function GamePlays({name}) {
                         Marketplace
                     </div>
                 </Link>
-
-                {/* <Link to='/betting' className="gameplays-item">
-                    <div className="gameplays-item-img centering">
-                        <img src="/images/BETTING.jpg" alt="" />
-                    </div>
-                    <div className="primary-gradient-text">
-                        Bet WC
-                    </div>
-                </Link> */}
 
                 {/* <Link to='/login' className="gameplays-item gameplays-item--disabled">
                     <div className="gameplays-item-img centering">

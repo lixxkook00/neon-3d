@@ -68,21 +68,17 @@ export default function ContentModal({status,name}) {
             </div>
 
             <div className="content-modal-main">
-              <div className="content-modal-li">
-                <span className="primary-gradient-text">
-                  Football Wonderland 
-                </span> is the most diverse ecosystem specifically designed for football fans around the globe.
-              </div>
-              <div className="content-modal-li">
-                We want the blockchain application to bring the best experience to football fans.
-              </div>
-               <div className="content-modal-li">
-                In the fantasy universe of 
-                <span className="primary-gradient-text">
-                  Football Wonderland 
-                </span>
-                , you will freely play with your passion for this sport, feeling it in many different ways.
-              </div>
+              <span className="primary-gradient-text">
+                Play
+              </span>
+               and discover
+              <span className="primary-gradient-text">
+                the secret gifts
+              </span>
+              of Santa Claus for
+              <span className="primary-gradient-text">
+               valuable rewards.
+              </span>
             </div>
           </div>
         </div>
@@ -100,7 +96,7 @@ export default function ContentModal({status,name}) {
             <div className="content-modal-main">
               <div className="roadmap-item roadmap-item--left">
                 <span className="primary-gradient-text">
-                 <i className="fa-solid fa-angles-right"></i> Q3/2022:
+                 <i className="fa-solid fa-angles-right"></i> Q3/2022
                 </span>
                 <div className="content-modal-main">
                   <div className="content-modal-li">
@@ -176,7 +172,7 @@ export default function ContentModal({status,name}) {
 
               <div className="roadmap-item roadmap-item--left">
                 <span className="primary-gradient-text">
-                 <i className="fa-solid fa-angles-right"></i> Q2/2023:
+                 <i className="fa-solid fa-angles-right"></i> Q2/2023
                 </span>
                 <div className="content-modal-main">
                   <div className="content-modal-li">
@@ -199,7 +195,7 @@ export default function ContentModal({status,name}) {
 
               <div className="roadmap-item roadmap-item--left">
                 <span className="primary-gradient-text">
-                 <i className="fa-solid fa-angles-right"></i> Q3/2023:
+                 <i className="fa-solid fa-angles-right"></i> Q3/2023
                 </span>
                 <div className="content-modal-main">
                   <div className="content-modal-li">
