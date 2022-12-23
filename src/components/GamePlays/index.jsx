@@ -27,15 +27,6 @@ export default function GamePlays({name}) {
                     </div>
                 </Link> */}
 
-                <Link to="/lucky-ball" className="gameplays-item">
-                    <div className="gameplays-item-img centering">
-                        <img src="/images/lucky-ball.jpg" alt="" />
-                    </div>
-                    <div className="primary-gradient-text">
-                        Lucky Ball
-                    </div>
-                </Link>
-
                 <Link to="/lucky-wheel" className="gameplays-item">
                     <div className="gameplays-item-img centering">
                         <img src="/images/LUCKY WHEEL.jpg" alt="" />
@@ -45,12 +36,21 @@ export default function GamePlays({name}) {
                     </div>
                 </Link>
 
-                <a href="https://pick-ball.vercel.app/" className="gameplays-item">
+                <Link to="/lucky-ball" className="gameplays-item">
                     <div className="gameplays-item-img centering">
                         <img src="/images/lucky-ball.jpg" alt="" />
                     </div>
                     <div className="primary-gradient-text">
                         Lucky Ball
+                    </div>
+                </Link>
+
+                <a href="https://pick-ball.vercel.app/" className="gameplays-item">
+                    <div className="gameplays-item-img centering">
+                        <img src="/images/pick-ball.jpg" alt="" />
+                    </div>
+                    <div className="primary-gradient-text">
+                        Lucky Bauble
                     </div>
                 </a>
 
@@ -63,12 +63,12 @@ export default function GamePlays({name}) {
                     </div>
                 </Link>
 
-                <Link to="/lucky-ball" className="gameplays-item">
+                <Link to="/login" className="gameplays-item">
                     <div className="gameplays-item-img centering">
-                        <img src="/images/lucky-ball.jpg" alt="" />
+                        <img src="/images/marketplace.jpg" alt="" />
                     </div>
                     <div className="primary-gradient-text">
-                        Lucky Ball
+                        Marketplace
                     </div>
                 </Link>
 
