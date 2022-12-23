@@ -249,3 +249,22 @@ a:not([href]):not([tabindex]){
 .grid-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+
+.main-banner{
+  position: absolute;
+  top: 10vh;
+  left: 48%;
+  transform: translateX(-50%);
+
+  width: 80vw;
+  max-width: 450px;
+}
+
+
+/* Mobile Only */
+@media (max-width: 739px) {
+  .main-banner{
+    top: 28vh;
+    width: 55vw;
+  }
+}

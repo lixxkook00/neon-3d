@@ -56,6 +56,8 @@ export default function Island() {
                         clearInterval(animationCamera);
                     }
                 }, 1000);
+
+
             } 
             else {
                 progressBar.classList.remove('hide');
@@ -151,6 +153,10 @@ export default function Island() {
 
     return (
         <div className="island">
+
+            <div className="main-banner">
+                <img src="./images/banner.png" alt="" />
+            </div>
 
             <ModelViewer model={model} rotateStatus={rotateStatusGlobal}/>
             
