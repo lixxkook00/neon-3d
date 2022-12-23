@@ -258,6 +258,11 @@ a:not([href]):not([tabindex]){
 
   width: 80vw;
   max-width: 450px;
+
+  img{
+    height: auto;
+    width: 100%;
+  }
 }
 
 
