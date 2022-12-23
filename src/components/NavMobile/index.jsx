@@ -51,7 +51,7 @@ export default function NavMobile({statusNavMobile,navMobile}) {
                 <img src="/images/about-ball.png" alt="" />
             </div>
             <div className="nav-mobile-item-title">
-                About
+                Partner
             </div>
         </div>
 
